@@ -183,7 +183,7 @@ aside{
 aside#search-2 {
     padding: 0;
 }
-aside .search-edit, input[type="text"]{
+aside .search-box input[type="text"]{
 	border:none;
 }
 .search-submit{
@@ -206,7 +206,6 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 
 .search-edit, input[type="text"] {
     padding: 11px;
-    border: none;
     border-radius: 4px;
     font-size: 14px;
     line-height: 2;
@@ -285,7 +284,6 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 
 #author_box-2 .author-box .author-name a,
 #slide-in-author_box-2 .author-box .author-name a{
-	font-size:1.2em;
 	color:#545454;
 	font-family:monospace;
 }
@@ -300,6 +298,14 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 .author-box .sns-follow-buttons a.follow-button {
     border: none;
     color: lightskyblue;
+}
+
+.author-widget-name {
+    font-size: .9em;
+    font-family: monospace;
+    color: lightslategray;
+    width: max-content;
+    margin: 0 auto 1em;
 }
 
 /*Index-main*********************************************************/
@@ -440,6 +446,12 @@ a.tag-link {
 	article > .entry-content, aritcle > footer.article-footer{
 	 padding:10px;
 	}
+	.entry-categories-tags.ctdt-one-row {
+    padding: 0 10px;
+   }
+}
+
+@media (max-width:880px){
 	h1.entry-title {
     left: 18px;
 	 padding:0;
@@ -448,9 +460,6 @@ a.tag-link {
     top: 40px;
     left: 18px;
 	}
-	.entry-categories-tags.ctdt-one-row {
-    padding: 0 10px;
-   }
 }
 
 /*share-button*/
@@ -898,7 +907,7 @@ span.fa.fa-search:before {
 
 /*META******************************************************************************************/
 
+/*エディタの背景を白に*/
 .editor-styles-wrapper {
     background: white;
 }
-
