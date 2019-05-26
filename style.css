@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*    Contents
 
 ----- Common line18~
@@ -43,17 +44,15 @@ a{
 
 header.article-header.entry-header {
     height: 340px;
+	 max-width: 880px;
 	 position:relative;
+	 margin:auto;
 }
 
 @media (max-width:834px){
 	header.article-header.entry-header {
    		 height: 390px;
 	}
-}
-
-#header{
-/*	box-shadow: 0 0 5px darkgray;*/
 }
 
 #header-in{
@@ -64,6 +63,38 @@ header.article-header.entry-header {
 	0%{opacity:0;transform:translate3d(0, -20px, 0);}
 	100%{opacity:1;transform:translate3d(0,0,0);}
 }
+
+.navi-in a:hover,.navi-footer-in a:hover {
+    background-color: transparent;
+    transform: translateY(-3px);
+}
+
+span.site-name-text {
+    color: #545454;
+}
+
+.item-label {
+    color: slategrey;
+}
+
+.header-container-in.hlt-top-menu{
+	max-width:1138px;
+	width:95%;
+}
+
+div#header-container {
+    box-shadow: 0 1px 5px darkgrey;
+}
+
+@media (min-width:835px){
+	div#header-container {
+    position: sticky;
+	 position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+}
+}
+
 
 /*description*/
 .tagline {
@@ -96,7 +127,15 @@ header.article-header.entry-header {
 	 color: lightskyblue;
 }
 
+/*footer*/
 
+.navi-footer-in a {
+    color: slategray;
+}
+
+.source-org.copyright {
+    color: #545454;
+}
 
 /*Side*********************************************************/
 
@@ -151,7 +190,7 @@ aside .search-edit, input[type="text"]{
 	color:lightskyblue;
 }
 .search-box {
-	margin:0 0 2em; 
+	margin:0 0 24px; 
    position: relative;
 }
 
@@ -228,13 +267,13 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 #author_box-2 .author-box,
 #slide-in-author_box-2 .author-box {
     border: none;
-    margin: 0;
+    margin: 0 auto;
 }
 
 #author_box-2 img.avatar.photo,
 #slide-in-author_box-2 img.avatar.photo{
     border-radius: 50%;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     padding: 3px;
     box-shadow: 0.5px 0.5px 5px;
 }
@@ -327,9 +366,20 @@ main > article {
 	 padding:20px;
 }
 
+.entry-content {
+    max-width: 880px;
+	 padding:1em;
+    margin: 1em auto 3em auto;
+}
+
 header .article-header{
 	box-shadow:none;
 	position:relative;
+}
+
+footer.article-footer.entry-footer {
+    max-width: 880px;
+    margin: auto;
 }
 
 .date-tags {
@@ -342,9 +392,9 @@ header .article-header{
 h1.entry-title {
     position: absolute;
     z-index: 1;
-    top:120px;
+    top:90px;
     left:60px;
-	 margin-right:60px;
+	 margin-right:18px;
 	 font-size:1.5em;
 	 color: #545454;
     text-shadow: 2px 2px 5px whitesmoke;
@@ -355,7 +405,8 @@ h1.entry-title {
     margin-bottom: .6em;
     max-width: 100%;
 	 background:white;
-	overflow:hidden;
+	 overflow:hidden;
+	 margin:auto;
 }
 
 /* eye-chach is ALWAYS  shown */
@@ -367,8 +418,19 @@ h1.entry-title {
 	 height:260px;
 	-webkit-filter: blur(5px);
 	 filter:blur(5px);
-	 opacity: .65;
+	 opacity: .5;
     transform: scale3d(1.1,1.1,1.1);
+}
+
+/* category & tags */
+
+a.cat-link {
+    background: lightskyblue;
+}
+
+a.tag-link {
+    color: lightskyblue;
+    border-color: lightskyblue;
 }
 
 @media (max-width:1023px){
@@ -379,7 +441,6 @@ h1.entry-title {
 	 padding:10px;
 	}
 	h1.entry-title {
-    top: 100px;
     left: 18px;
 	 padding:0;
 	}
@@ -387,6 +448,9 @@ h1.entry-title {
     top: 40px;
     left: 18px;
 	}
+	.entry-categories-tags.ctdt-one-row {
+    padding: 0 10px;
+   }
 }
 
 /*share-button*/
@@ -498,6 +562,17 @@ span.related-entry-main-heading.main-caption:before{
     color: slategray;
 }
 
+.related-list {
+    max-width: 880px;
+    margin: auto;
+}
+
+/*comments*/
+
+section.comment-list,div#respond,.comment-btn {
+    max-width: 880px;
+    margin: auto;
+}
 
 /*Heading*********************************************************/
 
@@ -509,7 +584,9 @@ span.related-entry-main-heading.main-caption:before{
 }
 
 .article h3, .article h4{
-	font-weight:300;
+	font-weight:600;
+	padding: .2em 1em;
+   margin: 1.6em 0 .8em;
 }
 
 .article h2:before, .article h3:before, .article h4:before {
@@ -523,22 +600,27 @@ span.related-entry-main-heading.main-caption:before{
     width: 1em;
     left: 0;
     top: 1.15em;
-	 background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+   	 background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
 }
 
 .article h3{
 	 border-left: 5px solid dodgerblue;
 }
 
-.article h3:before{
-	 width: .5em;
+.article h3:before {
+    width: .3em;
     height: 100%;
     top: 0;
     left: 0;
     background: lightskyblue;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
+
+@media (max-width: 480px){
+	.article h2:before{top:.75em;}
+}
+
 
 
 /*Table of Contents*********************************************************/
@@ -548,7 +630,7 @@ span.related-entry-main-heading.main-caption:before{
 	border: 2px solid lightskyblue;
 	border-top-left-radius:7px;
 	border-top-right-radius:7px;
-	min-width: 80%;
+	width: 90%;
 }
 
 .toc-title {
@@ -654,6 +736,9 @@ textarea#comment {
     padding-left:40px;
 }
 
+.comment-form-author input, .comment-form-email input, .comment-form-url input {
+    background: #eff1f5;
+}
 
 
 /*MobileMenu*********************************************************/
@@ -759,16 +844,61 @@ ul.menu-drawer:after{
     color: slategray;
 }
 
+#slide-in-search-2 input.search-edit {
+    background: whitesmoke;
+}
+
+
+/*Others******************************************************************************************/
+
+/*notice area*/
+.notice-area {
+	 background-color:transparent !important; /*通知欄にどの色を選択しても無効に*/
+	 background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    padding: .5em;
+    font-size: 1em;
+	 transition:all 500ms ease-in-out;
+}
+.notice-area-wrap:hover {
+    opacity: .8;
+}
+.notice-area:hover{
+	 opacity:.8;
+}
+
+/*appeal area*/
+.appeal-content {
+    min-width: 300px;
+}
+
+/*search*/
+.posts-not-found {
+    padding: 1em;
+    background: white;
+	 color: slategrey;
+	text-align:center;
+}
+.posts-not-found h2:before{
+	content:"\f292";
+	font-family:"FontAwesome";
+	color:lightskyblue;
+	margin-right:1em;
+}
+h1#archive-title {
+    margin: 0 0 1em;
+    background: white;
+    padding: .5em;
+	 color: slategrey;
+}
+span.fa.fa-search:before {
+    content: "\f002";
+    color: lightskyblue;
+}
+
+
 /*META******************************************************************************************/
 
 .editor-styles-wrapper {
     background: white;
 }
 
-#tabs > ul > li{
-	border: none;
-   background: lightskyblue;
-   padding: .3em .7em !important;
-   margin: .2em !important;
-   border-radius: 20px;
-}
