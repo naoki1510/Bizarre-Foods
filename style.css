@@ -176,8 +176,10 @@ aside{
 	aside{
 		padding:1em;
 	}
+    div.sidebar{
+        padding:24px;
+    }
 }
-
 
 /*search*/
 aside#search-2 {
