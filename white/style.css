@@ -260,33 +260,28 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 
 /*profile*/
 
-#author_box-2 .author-box,
-#slide-in-author_box-2 .author-box {
+.author-box {
     border: none;
     margin: 0 auto;
 }
 
-#author_box-2 img.avatar.photo,
-#slide-in-author_box-2 img.avatar.photo{
+img.avatar.photo{
     border-radius: 50%;
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     padding: 3px;
     box-shadow: 0.5px 0.5px 5px;
 }
 
-#author_box-2 .author-box .author-name,
-#slide-in-author_box-2 .author-box .author-name{
+.author-box .author-name{
     margin:1.5em 0;
 }
 
-#author_box-2 .author-box .author-name a,
-#slide-in-author_box-2 .author-box .author-name a{
+.author-box .author-name a{
     color:#545454;
     font-family:monospace;
 }
 
-#author_box-2 .author-description,#author_box-2 .author-description a,
-#slide-in-author_box-2 .author-description,#slide-in-author_box-2 .author-description a{
+.author-description, .author-description a{
     color:slategray;
     font-size:.9em;
     font-weight:100;
