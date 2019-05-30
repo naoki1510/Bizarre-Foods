@@ -31,12 +31,6 @@ a{
     color: white;
 }
 
-@media (max-width: 1023px){
-  div.sidebar {
-    padding: 24px;
-  }
-}
-
 /*header*/
 
 header.article-header.entry-header {
@@ -173,7 +167,14 @@ aside{
     aside{
         padding:1em;
     }
+    div.sidebar {
+    padding: 24px;
+    }
 }
+
+  div.sidebar {
+    padding: 24px;
+  }
 
 
 /*search*/
