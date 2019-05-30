@@ -637,6 +637,8 @@ section.comment-list,div#respond,.comment-btn {
 .toc-title {
     background: #292929;
     color: white;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
 }
 
 .toc-title:before {
