@@ -668,6 +668,12 @@ section.comment-list,div#respond,.comment-btn {
     color: lightpink;
 }
 
+@media (max-width:480px){
+  .toc{
+   width:100%;
+  }
+}
+
 /*Comment*********************************************************/
 
 div#comment-area {
