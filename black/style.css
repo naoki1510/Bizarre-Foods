@@ -32,7 +32,7 @@ a{
 }
 
 @media (max-width: 1023px){
-  main.main, div.sidebar {
+  div.sidebar {
     padding: 24px;
   }
 }
