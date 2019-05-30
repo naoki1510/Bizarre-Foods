@@ -40,6 +40,12 @@ a{
     color: white;
 }
 
+@media (max-width: 1023px){
+  main.main, div.sidebar {
+    padding: 24px;
+  }
+}
+
 /*header*/
 
 header.article-header.entry-header {
