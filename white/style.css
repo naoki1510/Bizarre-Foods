@@ -95,11 +95,12 @@ div#header-container {
     padding: .5em 1em;
     min-width: 120px;
     max-width: 100%;
-    color: white;
+    color: slategray;
     font-size: small;
     background: whitesmoke;
     border-radius: 30px;
 }
+
 .tagline:before {
     content: "";
     position: absolute;
@@ -178,7 +179,7 @@ aside .search-box input[type="text"]{
     border:none;
 }
 .search-submit{
-    color:whitesmoke;
+    color:slategray;
 }
 .search-box {
     margin:0 0 24px;
@@ -805,13 +806,13 @@ ul.menu-drawer:after{
 }
 
 .menu-close-button::before {
-    color: whitesmoke;
+    color: slategray;
 }
 
 #slide-in-sidebar .widget-title {
     background: whitesmoke;
     padding: .5em;
-    color: white;
+    color: slategray;
     border-radius: 5px;
 }
 
