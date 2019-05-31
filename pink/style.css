@@ -260,7 +260,7 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
     margin: 0 auto;
 }
 
-img.avatar.photo{
+.author-box img.avatar.photo{
     border-radius: 50%;
     background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     padding: 3px;
