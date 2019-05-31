@@ -165,7 +165,7 @@ aside{
 
 @media (max-width:1023px){
     aside{
-        padding:1em;
+        padding:.5em;
     }
 }
 
