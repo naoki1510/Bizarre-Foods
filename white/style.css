@@ -210,7 +210,7 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
     border-radius: 4px;
     font-size: 14px;
     line-height: 2;
-    color: whitesmoke;
+    color: slategray;
     width: 100%;
 }
 
@@ -231,7 +231,7 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 
 .cta-box {
     background-color: whitesmoke;
-    color: white;
+    color: slategray;
     padding: 20px;
 }
 
