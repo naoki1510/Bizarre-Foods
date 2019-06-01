@@ -302,6 +302,37 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
     margin: 0 auto 1em;
 }
 
+/*Recent Comment*/
+
+.recent-comments {
+    padding: 1em;
+}
+
+.recent-comment-article {
+    color: slategray;
+    font-size: .8em;
+	 margin-top: 1em;
+}
+
+.recent-comment-content {
+    background: lightskyblue;
+    color: white;
+    border: none;
+    padding: 1em;
+	 margin-top: 20px;
+}
+
+.recent-comment-content::before {
+    border-color: transparent;
+    border-bottom-color: lightskyblue;
+}
+
+.recent-comment-content::after {
+    border-color: transparent;
+    border-bottom-color: lightskyblue;
+}
+
+
 /*Index-main*********************************************************/
 
 .main{
