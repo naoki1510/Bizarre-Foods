@@ -293,7 +293,7 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 
 .author-box .sns-follow-buttons a.follow-button {
     border: none;
-    color: whitesmoke;
+    color: slategray;
 }
 
 .author-widget-name {
