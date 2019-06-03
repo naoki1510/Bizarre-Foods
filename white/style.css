@@ -1051,6 +1051,23 @@ span.fa.fa-search:before {
     color: whitesmoke;
 }
 
+/*blog card*/
+
+.blogcard{
+  border:none;
+}
+
+.blogcard:before {
+    font-family: "FontAwesome";
+    content: "\f08e";
+    position: absolute;
+    top: -13px;
+    left: -13px;
+    padding: .5em .6em;
+    border-radius: 50%;
+    background: whitesmoke;
+    color: #545454;
+}
 
 /*META******************************************************************************************/
 
