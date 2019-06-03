@@ -674,6 +674,15 @@ section.comment-list,div#respond,.comment-btn {
     margin: auto;
 }
 
+.comment-respond input#submit {
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+    color: white;
+    background: lightseagreen;
+    border-radius: 30px;
+}
+
 /*Heading*********************************************************/
 
 .article h2, .article h3, .article h4 {
