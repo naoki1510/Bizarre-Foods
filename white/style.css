@@ -501,7 +501,7 @@ a.tag-link {
     width: 100%;
 }
 
-.sns-buttons a {
+.sns-buttons a.share-button {
     color: #545454;
     background: white;
     border-radius: 0;
