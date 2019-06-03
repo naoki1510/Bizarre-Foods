@@ -691,6 +691,18 @@ section.comment-list,div#respond,.comment-btn {
     border-radius: 30px;
 }
 
+a.comment-reply-link {
+    border: none;
+    background: lightpink;
+    color: white;
+    border-radius: 30px;
+    padding: .5em 1em;
+}
+
+.comment-reply-link:after {
+    content: "する";
+}
+
 /*Heading*********************************************************/
 
 .article h2, .article h3, .article h4 {
@@ -1031,8 +1043,30 @@ ul.menu-drawer:after{
 }
 
 /*appeal area*/
+.appeal-title {
+    width: max-content;
+    margin: .5em auto;
+    padding-bottom: .5em;
+    border-bottom: 3px solid lightpink;
+}
+
 .appeal-content {
-    min-width: 300px;
+    min-width: 50%;
+    opacity: .9;
+}
+
+a.appeal-button {
+    width: max-content;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px slategrey;
+    transition: all 500ms;
+}
+
+.appeal-button:hover {
+    color: #fff;
+    opacity: 1;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 5px slategrey;
 }
 
 /*search*/
@@ -1075,6 +1109,12 @@ span.fa.fa-search:before {
     border-radius: 50%;
     background: lightpink;
     color: white;
+}
+
+/*author-info*/
+
+.author-info,a.author-link {
+    color: slategray;
 }
 
 /*META******************************************************************************************/
