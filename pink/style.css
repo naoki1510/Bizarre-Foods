@@ -391,6 +391,28 @@ h2.entry-card-title.card-title.e-card-title {
     max-width: 80%;
 }
 
+/*Pagenation*/
+
+.pagination-next-link {
+    background-color: white;
+    border: none;
+    color: #545454;
+    border-radius: 30px;
+    font-size: .8em;
+}
+
+.page-numbers {
+    color: #545454;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.pagination .current {
+    background-color: lightpink;
+    color:white;
+}
+
 /*Post*********************************************************/
 
 main > article {

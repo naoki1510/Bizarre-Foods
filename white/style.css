@@ -390,10 +390,31 @@ h2.entry-card-title.card-title.e-card-title {
     top: 0;
     left: 0;
     border: none;
-    color: #fff;
+    color: #545454;
     background-color: whitesmoke;
     padding: .2em 1em;
     max-width: 80%;
+}
+
+/*Pagenation*/
+
+.pagination-next-link {
+    background-color: white;
+    border: none;
+    color: #545454;
+    border-radius: 30px;
+    font-size: .8em;
+}
+
+.page-numbers {
+    color: #545454;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.pagination .current {
+    background-color: whitesmoke;
 }
 
 /*Post*********************************************************/
@@ -463,10 +484,11 @@ h1.entry-title {
 
 a.cat-link {
     background: whitesmoke;
+    color:#545454;
 }
 
 a.tag-link {
-    color: whitesmoke;
+    color: #545454;
     border-color: whitesmoke;
 }
 
@@ -798,10 +820,10 @@ div#comment-area {
 .comment-btn {
     background-color: whitesmoke;
     border: none;
-    color: white;
+    color: #545454;
     border-radius: 30px;
     display: block;
-     font-size:15px;
+    font-size:15px;
 }
 
 .commets-list .avatar{
@@ -989,7 +1011,6 @@ ul.menu-drawer:after{
     padding: .5em;
     font-size: 1em;
      transition:all 500ms ease-in-out;
-}
 }
 
 /*appeal area*/
