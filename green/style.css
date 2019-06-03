@@ -500,7 +500,8 @@ a.tag-link {
     color: #545454;
     background: white;
     border-radius: 0;
-     border:none;
+    border:none;
+    margin-top:10px;
 }
 
 .sns-buttons a:hover {
@@ -523,7 +524,8 @@ a.tag-link {
 .bc-brand-color.sns-share .github-button, .bc-brand-color.sns-follow .github-button,
 .bc-brand-color.sns-share .feedly-button, .bc-brand-color.sns-follow .feedly-button,
 .bc-brand-color.sns-share .rss-button, .bc-brand-color.sns-follow .rss-button{
-	background:#fff;
+    background:#fff;
+    border:none;
 }
 
 .bc-brand-color.sns-share .twitter-button, .bc-brand-color.sns-follow .twitter-button {
