@@ -399,18 +399,26 @@ h2.entry-card-title.card-title.e-card-title {
 /*Pagenation*/
 
 .pagination-next-link {
-    background-color: white;
-    border: none;
-    color: #545454;
     border-radius: 30px;
     font-size: .8em;
 }
 
-.page-numbers {
+.pagination-next-link,
+.page-numbers{
     color: #545454;
     border: none;
     background-color: white;
+}
+
+.page-numbers {
     border-radius: 50%;
+    transition: all 500ms;
+    box-shadow: 0 1px 1px slategrey;
+}
+
+a.page-numbers:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 5px slategrey;
 }
 
 .pagination .current {
