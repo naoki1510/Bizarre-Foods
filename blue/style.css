@@ -506,6 +506,7 @@ a.tag-link {
 .sns-buttons a:hover {
     transform: translateY(-4px);
     transition:all 500ms;
+    color:#545454;
 }
 
 .bc-brand-color.sns-share .website-button, .bc-brand-color.sns-follow .website-button,
