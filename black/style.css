@@ -123,8 +123,8 @@ div#header-container {
 .logo-text {
     padding: 0 0 10px;
     font-size: 1em;
-    font-family: monospace;
-     color: #292929;
+    font-family: monospace, revert, sans-serif;
+    color: #292929;
 }
 
 /*footer*/
@@ -153,7 +153,7 @@ div#header-container {
     padding:0;
     margin:0 0 1em;
     text-align:center;
-    font-family: monospace;
+    font-family: monospace, revert, sans-serif;
     font-weight: 100;
     color:#545454;
 }
@@ -280,7 +280,7 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 
 .author-box .author-name a{
     color:#545454;
-    font-family:monospace;
+    font-family: monospace, revert, sans-serif;
 }
 
 .author-description, .author-description a{
@@ -296,7 +296,7 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
 
 .author-widget-name {
     font-size: .9em;
-    font-family: monospace;
+    font-family: monospace, revert, sans-serif;
     color: lightslategray;
     width: max-content;
     margin: 0 auto 1em;
@@ -594,28 +594,28 @@ a.tag-link {
 }
 
 .sns-share-message, .sns-follow-message,span.related-entry-main-heading.main-caption,.comment-title{
-    font-size:0;
-    text-align: center;
+   font-size:0;
+   text-align: center;
    display: block;
-    margin: 50px;
+   margin: 50px;
 }
 
 .sns-share.ss-high-and-low-lc a .social-icon.button-caption, .sns-share.ss-high-and-low-cl a .social-icon.button-caption, .sns-share.ss-high-and-low-lc a .button-caption.button-caption, .sns-share.ss-high-and-low-cl a .button-caption.button-caption {
-    font-size: 10px;
+   font-size: 10px;
 }
 
 .sns-share-message:before,.sns-follow-message:before,
 span.related-entry-main-heading.main-caption:before,.comment-title:before{
-    font-size: 16px;
-   font-family: monospace;
+   font-size: 16px;
+   font-family: monospace, revert, sans-serif;
    font-weight: 100;
-    padding: .5em;
+   padding: .5em;
    border-bottom: 2px solid #292929;
-    letter-spacing: .4em;
+   letter-spacing: .4em;
 }
 
 .sns-share-message:before{
-    content:"SHARE";
+   content:"SHARE";
 }
 
 .sns-follow-message:before{
@@ -623,26 +623,26 @@ span.related-entry-main-heading.main-caption:before,.comment-title:before{
 }
 
 span.related-entry-main-heading.main-caption:before{
-    content:"MORE";
+   content:"MORE";
 }
 
 .comment-title:before{
-    content:"COMMENTS";
+   content:"COMMENTS";
 }
 
 /*relatedPost*/
 
 .e-card-title {
-    font-weight: 100;
+   font-weight: 100;
 }
 
 .related-entry-card-snippet.card-snippet.e-card-snippet {
-    color: slategray;
+   color: slategray;
 }
 
 .related-list {
-    max-width: 880px;
-    margin: auto;
+   max-width: 880px;
+   margin: auto;
 }
 
 /*comments*/
@@ -896,7 +896,7 @@ ul.menu-drawer:before, ul.menu-drawer:after {
     background: #292929;
     color: white;
     padding: .5em;
-    font-family: monospace;
+    font-family: monospace, revert, sans-serif;
     font-weight: 900;
     text-align: center;
 }
