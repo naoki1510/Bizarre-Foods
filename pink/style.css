@@ -190,7 +190,7 @@ aside .search-box input[type="text"]{
 	color:lightpink;
 }
 .search-box {
-	margin:0 0 24px; 
+	margin:0 0 24px;
    position: relative;
 }
 
@@ -494,6 +494,10 @@ a.tag-link {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.share-button a{
+    color:lightpink;
 }
 
 .sns-buttons a.share-button {
@@ -891,10 +895,10 @@ ul.menu-drawer:after{
 
 
 #slide-in-recent-posts-2 .widget-title:before,
-#slide-in-recent-comments-2 .widget-title:before, 
-#slide-in-archives-2 .widget-title:before, 
-#slide-in-categories-2 .widget-title:before, 
-#slide-in-meta-2 .widget-title:before, 
+#slide-in-recent-comments-2 .widget-title:before,
+#slide-in-archives-2 .widget-title:before,
+#slide-in-categories-2 .widget-title:before,
+#slide-in-meta-2 .widget-title:before,
 #slide-in-cta_box-2 .widget-title:before,
 #slide-in-sns_follow_buttons-2 .widget-title:before,
 #slide-in-fb_like_box-2 .widget-title:before,
@@ -980,5 +984,3 @@ span.fa.fa-search:before {
 .editor-styles-wrapper {
     background: white;
 }
-
-

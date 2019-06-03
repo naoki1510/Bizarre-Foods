@@ -501,6 +501,10 @@ a.tag-link {
     width: 100%;
 }
 
+.share-button a{
+    color:#545454;
+}
+
 .sns-buttons a.share-button {
     color: #545454;
     background: white;
@@ -981,6 +985,3 @@ span.fa.fa-search:before {
 .editor-styles-wrapper {
     background: white;
 }
-
-
-
