@@ -499,6 +499,10 @@ a.tag-link {
     color:lightskyblue;
 }
 
+.sns-buttons a{
+    color:#545454;
+}
+
 .sns-buttons a.share-button {
     color: #545454;
     background: white;

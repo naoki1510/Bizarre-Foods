@@ -500,6 +500,10 @@ a.tag-link {
     color:#292929;
 }
 
+.sns-buttons a{
+    color:#545454;
+}
+
 .sns-buttons a.share-button {
     color: #545454;
     background: white;
