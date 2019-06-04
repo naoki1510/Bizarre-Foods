@@ -260,6 +260,111 @@ input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
     color: slategray;
 }
 
+.nwa .ranking-item-image-tag {
+    display: block; /*サイドバーでの画像をblockに*/
+}
+
+
+article .ranking-items {
+    border: 1px solid lightskyblue;
+	 position:relative;
+	 padding-top:20px;
+}
+
+article .ranking-item {
+    border-radius: 0px;
+}
+
+article .ranking-item-name {
+    color: #545454;
+}
+
+article .ranking-items:before {
+	 background: lightskyblue;
+    content: "ランキング";
+    position: absolute;
+	 width: calc(100% - 8px);
+    top: -40px;
+    left: -1px;
+    padding: 5px;
+	 text-align: center;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+	 border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+article .ranking-item-name-crown {
+    transform: scale3d(0.7,0.7,0.7);
+}
+
+.ranking-item-detail a, .ranking-item-link a{
+	border-radius:30px;
+}
+
+.ranking-item-rating {
+	  width: 48.43%;
+    max-width: 302px;
+    padding: 10px 30px;
+    text-align: center;
+    background: ghostwhite;
+    position: relative;
+}
+
+aside .ranking-item-rating {
+	  width: 100%;
+}
+
+.ranking-item-rating.rating-star:before {
+    content: "評価：";
+    color: slategray;
+    font-weight: 600;
+}
+
+.ranking-item-img-desc, .ranking-item-img-desc > div {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ranking-item-img-desc img{
+	border:2px solid ghostwhite;
+}
+
+.ranking-item-detail a {
+    background: ghostwhite;
+    color: #545454;
+}
+
+.ranking-item-detail a:hover {
+	  color:#545454;
+}
+
+.ranking-item-link a{
+    background-color: tomato;
+}
+@media (max-width: 834px){
+	.ranking-item-rating{
+		width:100%;
+		max-width:834px;
+	}
+	.ranking-item-img-desc img{
+	border:none;
+	}
+	.ranking-item-rating {
+    font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 480px){
+	.ranking-item-image-tag {
+   	  display: block;
+	}
+	.ranking-item-img-desc img{
+	  border:2px solid ghostwhite;
+   }
+}
+
 /*profile*/
 
 .author-box {
