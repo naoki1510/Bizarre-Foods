@@ -123,7 +123,7 @@ div#header-container {
 .logo-text {
     padding: 0 0 10px;
     font-size: 1em;
-    font-family: monospace, revert, sans-serif;
+    font-family: sans-serif;
      color: lightseagreen;
 }
 
@@ -153,7 +153,7 @@ div#header-container {
     padding:0;
     margin:0 0 1em;
     text-align:center;
-    font-family: monospace, revert, sans-serif;
+    font-family: sans-serif;
     font-weight: 100;
     color:#545454;
 }
@@ -386,7 +386,7 @@ aside .ranking-item-rating {
 
 .author-box .author-name a{
     color:#545454;
-    font-family: monospace, revert, sans-serif;
+    font-family: sans-serif;
 }
 
 .author-description, .author-description a{
@@ -402,7 +402,7 @@ aside .ranking-item-rating {
 
 .author-widget-name {
     font-size: .9em;
-    font-family: monospace, revert, sans-serif;
+    font-family: sans-serif;
     color: lightslategray;
     width: max-content;
     margin: 0 auto 1em;
@@ -742,7 +742,7 @@ a.tag-link {
 .sns-share-message:before,.sns-follow-message:before,
 span.related-entry-main-heading.main-caption:before,.comment-title:before{
     font-size: 16px;
-   font-family: monospace, revert, sans-serif;
+   font-family: sans-serif;
    font-weight: 100;
     padding: .5em;
    border-bottom: 2px solid lightseagreen;
@@ -1051,7 +1051,7 @@ ul.menu-drawer:before, ul.menu-drawer:after {
     background: lightseagreen;
     color: white;
     padding: .5em;
-    font-family: monospace, revert, sans-serif;
+    font-family: sans-serif;
     font-weight: 900;
     text-align: center;
 }
