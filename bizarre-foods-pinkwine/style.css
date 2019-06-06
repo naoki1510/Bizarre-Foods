@@ -1200,7 +1200,8 @@ span.fa.fa-search:before {
 /*blog card*/
 
 .blogcard{
-  border:none;
+  border:2px solid lightpink;
+  border-radius:0;
 }
 
 .blogcard:before {
@@ -1213,6 +1214,7 @@ span.fa.fa-search:before {
     border-radius: 50%;
     background: lightpink;
     color: white;
+    z-index:1;
 }
 
 /*author-info*/

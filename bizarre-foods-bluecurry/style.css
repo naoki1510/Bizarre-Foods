@@ -1199,7 +1199,8 @@ span.fa.fa-search:before {
 /*blog card*/
 
 .blogcard{
-  border:none;
+  border:2px solid lightskyblue;
+  border-radius:0;
 }
 
 .blogcard:before {
@@ -1212,6 +1213,7 @@ span.fa.fa-search:before {
     border-radius: 50%;
     background: lightskyblue;
     color: white;
+    z-index:1;
 }
 
 /*author-info*/
