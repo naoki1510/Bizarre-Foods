@@ -624,24 +624,18 @@ a.tag-link {
    }
 }
 
-@media (max-width:880px){
-	h1.entry-title {
-    left: 18px;
-	 padding:0;
-	}
-	.date-tags {
-    top: 40px;
-    left: 18px;
-	}
+@media (max-width:834px){
+    
+    .eye-catch{
+        padding-bottom: 150px;
+    }
+
+    .article-header h1{
+        bottom: 150px;
+    }
 }
 
 /*share-button*/
-
-.sns-share.ss-col-6.ss-high-and-low-lc.bc-brand-color.sbc-hide.ss-top {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 .share-button a{
     color:lightskyblue;
