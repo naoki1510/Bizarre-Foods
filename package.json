@@ -1,0 +1,25 @@
+{
+  "name": "bizarre-foods",
+  "version": "1.0.0",
+  "description": "Simple and flat cocoon skin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path scss bizarre-foods-bluecurry/style.scss bizarre-foods-bluecurry/style.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naoki1510/Bizarre-Foods.git"
+  },
+  "author": "takasaki, naoki1510",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/naoki1510/Bizarre-Foods/issues"
+  },
+  "homepage": "https://github.com/naoki1510/Bizarre-Foods#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
