@@ -1,20 +1,20 @@
 @charset "UTF-8";
 /*
-  Skin Name: Bizarre-food（ブルーカレー）
-  Description: Simple & Flat skin
-  Skin URI: https://takasaki.work/cocoon_skin/
-  Author: takasaki
-  Author URI: https://takasaki.work/
-  Screenshot URI: https://im-cocoon.net/wp-content/uploads/bizarre-foods-bluecurry.png
-  Version: 1.0
-  Priority: 89.2
+    Skin Name: Bizarre-food（ブルーカレー）
+    Description: Simple & Flat skin
+    Skin URI: https://takasaki.work/cocoon_skin/
+    Author: takasaki
+    Author URI: https://takasaki.work/
+    Screenshot URI: https://im-cocoon.net/wp-content/uploads/bizarre-foods-bluecurry.png
+    Version: 1.0
+    Priority: 89.2
 */
 
 /*Common*********************************************************/
 
 body {
-  color: #545454;
-   background:#EFF1F5;
+    color: #545454;
+    background:#EFF1F5;
 }
 
 a{
@@ -492,6 +492,7 @@ h2.entry-card-title.card-title.e-card-title {
     background-color: lightskyblue;
     padding: .2em 1em;
     max-width: 80%;
+    font-size: 0.9em;
 }
 
 /*Pagenation*/
@@ -547,20 +548,27 @@ footer.article-footer.entry-footer {
 
 .date-tags {
     position: absolute;
-    top: 60px;
-    left: 60px;
+    top: 0px;
+    right: 0px;
     color: slategray;
+    background-color: rgba(245, 245, 245, 0.6);
+    font-size: 1.14em;
+    font-weight: bold;
+    padding: 0.4em 2em;
 }
 
 .article-header h1 {
     position: absolute;
     z-index: 1;
-    top:90px;
-    left:60px;
-	 margin-right:18px;
-	 font-size:1.5em;
-	 color: #545454;
-    text-shadow: 2px 2px 5px whitesmoke;
+    bottom: 78px;
+    left: 0px;
+    right: 0px;
+    padding: 1em;
+    margin: 0;
+	font-size:1.5em;
+	color: #454545;
+    //text-shadow: 2px 2px 5px whitesmoke;
+    background-color: rgba(245, 245, 245, 0.74);
 }
 
 .article-header.category-header h1,
@@ -570,12 +578,12 @@ footer.article-footer.entry-footer {
 
 .eye-catch {
     position: relative;
-    margin-bottom: .6em;
     max-width: 100%;
 	 background:white;
 	 overflow:hidden;
      margin:auto;
      width: 100%;
+     padding-bottom: 78px;
 }
 
 /* eye-chach is ALWAYS  shown */
@@ -585,10 +593,11 @@ footer.article-footer.entry-footer {
 
 .eye-catch img {
 	 height: 260px !important;
-	-webkit-filter: blur(5px);
-	 filter:blur(5px);
-	 opacity: .5;
-    transform: scale3d(1.1,1.1,1.1);
+     object-fit: cover;
+	//-webkit-filter: blur(5px);
+	 //filter:blur(5px);
+	 //opacity: .5;
+    //transform: scale3d(1.1,1.1,1.1);
     width: 100%;
 }
 
