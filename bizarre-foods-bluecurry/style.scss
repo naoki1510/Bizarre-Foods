@@ -58,7 +58,13 @@ header.article-header.entry-header {
 
 .navi-in a:hover,.navi-footer-in a:hover {
     background-color: transparent;
+    z-index: 100;
+    box-shadow: inset 0px 0px 0px 2px lightskyblue;
     //transform: translateY(-3px);
+}
+
+.navi-in > ul li {
+    width: auto;
 }
 
 span.site-name-text {
@@ -66,6 +72,9 @@ span.site-name-text {
 }
 
 #navi .navi-in a, #navi .navi-in a:hover {
+    transition: box-shadow 0.3s;
+    border-radius: 3px;
+    padding: 0 2em;
     color: slategrey;
 }
 
@@ -131,13 +140,13 @@ div#header-container {
 
 .sidebar h3{
 	font-size:18px;
-	background:#fff;
-	padding:0;
-	margin:0 0 1em;
+    background: lightskyblue;
+	padding:1em 0;
+	margin:-2em -2em 1em;
 	text-align:center;
 	font-family: sans-serif;
 	font-weight: 100;
-	color:#545454;
+	color:white;
 }
 
 #sidebar > .widget {
