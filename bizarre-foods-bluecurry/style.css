@@ -50,9 +50,9 @@ header.article-header.entry-header {
     transform: translate3d(0, 0, 0); } }
 
 .navi-in a:hover, .navi-footer-in a:hover {
-  background-color: transparent;
+  background-color: #eff8ff;
   z-index: 100;
-  box-shadow: inset 0px 0px 0px 2px lightskyblue; }
+  box-shadow: inset 0px 0px 0px 1px lightskyblue; }
 
 .navi-in > ul li {
   width: auto; }
@@ -62,7 +62,7 @@ span.site-name-text {
 
 #navi .navi-in a, #navi .navi-in a:hover {
   transition: box-shadow 0.3s;
-  border-radius: 3px;
+  border-radius: 1px;
   padding: 0 2em;
   color: slategrey; }
 
@@ -154,21 +154,26 @@ aside .search-box input[type="text"] {
   margin: 0 0 24px;
   position: relative; }
 
-.search-edit, input[type="text"]::placeholder {
-  font-size: .8em;
-  color: #ccc; }
-
-input::placeholder, input:-ms-input-placeholder, input::-ms-input-placeholder {
-  color: #ccc;
-  font-size: .5em; }
-
 .search-edit, input[type="text"] {
   padding: 11px;
   border-radius: 4px;
   font-size: 14px;
   line-height: 2;
   color: lightskyblue;
-  width: 100%; }
+  width: 100%;
+  transition: all 300ms; }
+  .search-edit:hover, input[type="text"]:hover {
+    background-color: #e9f7ff;
+    color: slategray; }
+    .search-edit:hover::placeholder, input[type="text"]:hover::placeholder {
+      color: #aab8c7; }
+  .search-edit::placeholder, input[type="text"]::placeholder {
+    font-size: 1em;
+    color: #cccccc; }
+
+input::placeholder, input:-ms-input-placeholder, input::-ms-input-placeholder {
+  color: #ccc;
+  font-size: .5em; }
 
 /*cocoon original functions*/
 .toc-widget-box .toc.tnt-number.toc-center.border-element,
@@ -356,6 +361,31 @@ aside .ranking-item-rating {
   border-color: transparent;
   border-bottom-color: lightskyblue; }
 
+/* widget post */
+.widget-entry-cards {
+  position: relative; }
+  .widget-entry-cards .widget-entry-card-thumb {
+    position: relative;
+    margin-bottom: .6em;
+    max-width: 100%;
+    background: white;
+    overflow: hidden;
+    margin: auto;
+    width: 100%; }
+    .widget-entry-cards .widget-entry-card-thumb img {
+      opacity: .5;
+      transform: scale3d(1.1, 1.1, 1.1);
+      width: 100%; }
+  .widget-entry-cards .widget-entry-card-content {
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+    margin: 0;
+    color: #343434;
+    text-shadow: 2px 2px 5px whitesmoke; }
+
 /*Index-main*********************************************************/
 .main {
   padding: 24px; }
@@ -372,8 +402,7 @@ div#list {
   transition: all 500ms; }
 
 .a-wrap:hover {
-  box-shadow: 0 2px 6px -3px darkgray;
-  transform: translateY(-2px);
+  box-shadow: 0 2px 6px -3px gray;
   transition: all 500ms; }
 
 .a-wrap {
@@ -446,7 +475,7 @@ footer.article-footer.entry-footer {
   position: absolute;
   top: 0px;
   right: 0px;
-  color: slategray;
+  color: #545454;
   background-color: rgba(245, 245, 245, 0.6);
   font-size: 1.14em;
   font-weight: bold;
@@ -455,14 +484,19 @@ footer.article-footer.entry-footer {
 .article-header h1 {
   position: absolute;
   z-index: 1;
-  bottom: 78px;
+  bottom: calc(100% - 260px);
   left: 0px;
   right: 0px;
-  padding: 1em;
+  padding: 0.8em 2em;
   margin: 0;
   font-size: 1.5em;
-  color: #454545;
-  background-color: rgba(245, 245, 245, 0.74); }
+  color: #545454;
+  text-shadow: 2px 2px 5px whitesmoke;
+  background-color: rgba(245, 245, 245, 0.74);
+  box-shadow: 0px -6px 6px 3px rgba(245, 245, 245, 0.74); }
+  @supports not (bottom: calc(100% - 260px)) {
+    .article-header h1 {
+      top: 90px; } }
 
 .article-header.category-header h1,
 .article-header.tag-header h1 {
@@ -474,16 +508,16 @@ footer.article-footer.entry-footer {
   background: white;
   overflow: hidden;
   margin: auto;
-  width: 100%;
-  padding-bottom: 78px; }
+  width: 100%; }
 
-/* eye-chach is ALWAYS  shown */
+/* eye-chach is ALWAYS shown */
 .article-header > .eye-catch-wrap {
   display: flex !important; }
 
 .eye-catch img {
   height: 260px !important;
   object-fit: cover;
+  opacity: 0.6;
   width: 100%; }
 
 /* category & tags */
@@ -501,12 +535,6 @@ a.tag-link {
     padding: 10px; }
   .entry-categories-tags.ctdt-one-row {
     padding: 0 10px; } }
-
-@media (max-width: 834px) {
-  .eye-catch {
-    padding-bottom: 150px; }
-  .article-header h1 {
-    bottom: 150px; } }
 
 /*share-button*/
 .share-button a {
@@ -930,9 +958,6 @@ ul.menu-drawer:after {
 
 #slide-in-tag_cloud-2 .widget-title:before {
   content: "\f02c"; }
-
-.widget-entry-cards .widget-entry-card-content {
-  color: slategray; }
 
 #slide-in-search-2 input.search-edit {
   background: whitesmoke; }
