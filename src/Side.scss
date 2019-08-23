@@ -1,0 +1,352 @@
+/*Side*********************************************************/
+
+
+.sidebar{
+    padding:0;
+    border:none;
+    background:transparent;
+}
+
+.sidebar h3{
+	font-size:18px;
+    background: $main-color;
+	padding:1em 0;
+	margin:-2em -2em 1em;
+	text-align:center;
+	font-family: sans-serif;
+	font-weight: 100;
+	color:white;
+}
+
+#sidebar > .widget {
+    margin-bottom: 24px;
+}
+
+.widget_recent_entries ul li a, .widget_categories ul li a, .widget_archive ul li a, .widget_pages ul li a, .widget_meta ul li a, .widget_rss ul li a, .widget_nav_menu ul li a, .widget_recent_comments li, .widget_recent_comments li > a, .widget_recent_comments .comment-author-link > a {
+    color: slategray;
+    font-size: 14px;
+}
+
+aside{
+	background:#fff;
+	padding:2em;
+}
+
+@media (max-width:1023px){
+	aside{
+	padding:.5em;
+	}
+}
+
+/*search*/
+aside#search-2 {
+    padding: 0;
+}
+aside .search-box input[type="text"]{
+	border:none;
+}
+.search-submit{
+	color:$main-color;
+}
+.search-box {
+	margin:0 0 24px;
+   position: relative;
+}
+
+.search-edit, input[type="text"] {
+    padding: 11px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 2;
+    color: $main-color;
+    width: 100%;
+    transition: all 300ms;
+
+    &:hover{
+        background-color: rgb(233, 247, 255);
+        color: slategray;
+
+        &::placeholder{
+            color: rgb(170, 184, 199);
+        }
+    }
+    
+    &::placeholder{
+        font-size: 1em;
+        color: #cccccc;
+    }
+}
+
+input::placeholder,input:-ms-input-placeholder,input::-ms-input-placeholder {
+    color: #ccc;
+    font-size: .5em;
+}
+
+/*cocoon original functions*/
+
+.toc-widget-box .toc.tnt-number.toc-center.border-element,
+.toc-widget-box .toc a{
+    padding: 0;
+    margin: 0;
+}
+
+.toc-widget-box .toc.tnt-number.toc-center.border-element,
+.toc-widget-box .toc a, #related_entries-2 .widget-related-entry-cards a{
+	 color:slategray;
+}
+
+/*cta*/
+
+.cta-box {
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+}
+
+/*tag*/
+
+.tagcloud a {
+    background-color: aliceblue;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: slategray;
+}
+
+/*ranking*/
+
+.ranking-item{
+	border:none;
+}
+
+#item_ranking-2 .ranking-item-name-text,
+#item_ranking-2.nwa .ranking-item-name-text,
+#item_ranking-2.nwa .widget_item_ranking .main-widget-label {
+    color: #545454;
+}
+
+#item_ranking-2 .ranking-item-description,
+.ranking-item-img-desc{
+    color: slategray;
+}
+
+.nwa .ranking-item-image-tag {
+    display: block; /*サイドバーでの画像をblockに*/
+}
+
+
+article .ranking-items {
+    border: 1px solid $main-color;
+	 position:relative;
+     padding-top:20px;
+     margin-top: 40px;
+}
+
+article .ranking-item {
+    border-radius: 0px;
+}
+
+article .ranking-item-name {
+    color: #545454;
+}
+
+article .ranking-items:before {
+	 background: $main-color;
+    content: "ランキング";
+    position: absolute;
+	 width: calc(100% - 8px);
+    top: -40px;
+    left: -1px;
+    padding: 5px;
+	 text-align: center;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+	 border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+article .ranking-item-name-crown {
+    transform: scale3d(0.7,0.7,0.7);
+}
+
+.ranking-item-detail a, .ranking-item-link a{
+	border-radius:30px;
+}
+
+.ranking-item-rating {
+	  width: 48.43%;
+    max-width: 302px;
+    padding: 10px 30px;
+    text-align: center;
+    background: ghostwhite;
+    position: relative;
+}
+
+aside .ranking-item-rating {
+	  width: 100%;
+}
+
+.ranking-item-rating.rating-star:before {
+    content: "評価：";
+    color: slategray;
+    font-weight: 600;
+}
+
+.ranking-item-img-desc, .ranking-item-img-desc > div {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ranking-item-img-desc img{
+	border:2px solid ghostwhite;
+}
+
+.ranking-item-detail a {
+    background: ghostwhite;
+    color: #545454;
+}
+
+.ranking-item-detail a:hover {
+	  color:#545454;
+}
+
+.ranking-item-link a{
+    background-color: tomato;
+}
+@media (max-width: 834px){
+	.ranking-item-rating{
+		width:100%;
+		max-width:834px;
+	}
+	.ranking-item-img-desc img{
+	border:none;
+	}
+	.ranking-item-rating {
+    font-size: .9em;
+    }
+    .go-to-top {
+        right: 10px;
+        bottom: 10px;
+    }
+    .go-to-top-button {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px){
+	.ranking-item-image-tag {
+   	  display: block;
+	}
+	.ranking-item-img-desc img{
+	  border:2px solid ghostwhite;
+   }
+}
+
+/*profile*/
+
+.author-box {
+    border: none;
+    margin: 0 auto;
+}
+
+.author-box img.avatar.photo{
+    border-radius: 50%;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    padding: 3px;
+    box-shadow: 0.5px 0.5px 5px;
+}
+
+.author-box .author-name{
+	margin:1.5em 0;
+}
+
+.author-box .author-name a{
+	color:#545454;
+	font-family: sans-serif;
+}
+
+.author-description, .author-description a{
+	color:slategray;
+	font-size:.9em;
+	font-weight:100;
+}
+
+.author-box .sns-follow-buttons a.follow-button {
+    border: none;
+    color: $main-color;
+}
+
+.author-widget-name {
+    font-size: .9em;
+    font-family: sans-serif;
+    color: lightslategray;
+    width: max-content;
+    margin: 0 auto 1em;
+}
+
+/*Recent Comment*/
+
+.recent-comments {
+    padding: 1em;
+}
+
+.recent-comment-article {
+    color: slategray;
+    font-size: .8em;
+	 margin-top: 1em;
+}
+
+.recent-comment-content {
+    background: $main-color;
+    color: white;
+    border: none;
+    padding: 1em;
+	 margin-top: 20px;
+}
+
+.recent-comment-content::before {
+    border-color: transparent;
+    border-bottom-color: $main-color;
+}
+
+.recent-comment-content::after {
+    border-color: transparent;
+    border-bottom-color: $main-color;
+}
+
+/* widget post */
+
+.widget-entry-cards{
+    position: relative;
+
+    .widget-entry-card-thumb{
+        position: relative;
+        margin-bottom: .6em;
+        max-width: 100%;
+	    background:white;
+	    overflow:hidden;
+        margin:auto;
+        width: 100%;
+
+        img {
+            //-webkit-filter: blur(5px);
+            //filter:blur(5px);
+            opacity: .5;
+            transform: scale3d(1.1,1.1,1.1);
+            width: 100%;
+        }
+    }
+
+    .widget-entry-card-content{
+        position: absolute;
+        z-index: 1;
+        bottom: 5px;
+        left:10px;
+        right: 10px;
+        margin: 0;
+	    color: #343434;
+        text-shadow: 2px 2px 5px whitesmoke;
+    }
+}

@@ -1,0 +1,81 @@
+/*Comment*********************************************************/
+
+div#comment-area {
+    background: white;
+    padding: 20px;
+}
+
+.comment-btn {
+    background-color: $main-color;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    display: block;
+	 font-size:15px;
+}
+
+.commets-list .avatar{
+	float:none;
+}
+
+.vcard  > span.says{
+	display:none;
+}
+
+.vcard img {
+    border-radius: 50%;
+}
+
+.comment-author.vcard {
+    padding-left: 20px;
+}
+
+.comment-meta.commentmetadata {
+   text-align: right;
+}
+
+.comment-meta.commentmetadata > a{
+	text-decoration:none;
+	color:#ccc;
+	font-size:.8em;
+}
+
+.comment-content {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 1em;
+    padding: .5em 1em;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: .9em;
+    background: #EFF1F5;
+    border-radius: 10px;
+}
+
+.comment-content:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 48px;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #EFF1F5;
+}
+
+.comment-content p {
+    margin: .3em;
+}
+
+textarea#comment {
+    border: none;
+    background: #eff1f5;
+}
+
+.commets-list .children {
+    padding-left:40px;
+}
+
+.comment-form-author input, .comment-form-email input, .comment-form-url input {
+    background: #eff1f5;
+}

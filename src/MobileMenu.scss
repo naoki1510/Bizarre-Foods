@@ -1,0 +1,106 @@
+/*MobileMenu*********************************************************/
+
+/*common*/
+
+.mobile-menu-buttons .menu-button,
+.home-menu-icon.menu-icon,
+.top-menu-icon.menu-icon{
+    color: slategrey;
+}
+
+/*mobile-menu-menu*/
+
+.menu-drawer li {
+    padding: .5em;
+    font-size: .8em;
+}
+
+.menu-drawer a {
+    color: slategray;
+}
+
+.navi-footer-in > .menu-footer li.menu-item {
+    border: none;
+}
+
+ul.menu-drawer:before, ul.menu-drawer:after {
+    display: block;
+    background: $main-color;
+    color: white;
+    padding: .5em;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+ul.menu-drawer:before{
+	content:"MENU"
+}
+
+ul.menu-drawer:after{
+	content:"";
+	width:100%;
+	line-height:1;
+}
+
+
+/*mobaile-menu-sidebar*/
+
+.mobile-menu-buttons {
+    background: #fff;
+    box-shadow: 0 0 5px darkgrey;
+    font-size: 19px;
+}
+
+.menu-button .menu-caption {
+    font-size: 8px;
+    color: #aaa;
+}
+
+.menu-close-button::before {
+    color: $main-color;
+}
+
+#slide-in-sidebar .widget-title {
+    background: $main-color;
+    padding: .5em;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#slide-in-recent-posts-2 .widget-title:before,
+#slide-in-recent-comments-2 .widget-title:before,
+#slide-in-archives-2 .widget-title:before,
+#slide-in-categories-2 .widget-title:before,
+#slide-in-meta-2 .widget-title:before,
+#slide-in-cta_box-2 .widget-title:before,
+#slide-in-sns_follow_buttons-2 .widget-title:before,
+#slide-in-fb_like_box-2 .widget-title:before,
+#slide-in-author_box-2 .widget-title:before,
+#slide-in-item_ranking-2 .widget-title:before,
+#slide-in-tag_cloud-2 .widget-title:before{
+    font-family: "FontAwesome";
+    margin-right: .5em;
+	 font-weight:900;
+}
+
+#slide-in-recent-posts-2 .widget-title:before{content:"\f040";}
+#slide-in-recent-comments-2 .widget-title:before{content:"\f086";}
+#slide-in-archives-2 .widget-title:before{content:"\f073";}
+#slide-in-categories-2 .widget-title:before{content:"\f0ca";}
+#slide-in-meta-2 .widget-title:before{content:"\f013";}
+#slide-in-cta_box-2 .widget-title:before{content:"\f02e";}
+#slide-in-sns_follow_buttons-2 .widget-title:before{content:"\f0c1";}
+#slide-in-fb_like_box-2 .widget-title:before{content:"\f164";}
+#slide-in-author_box-2 .widget-title:before{content:"\f007";}
+#slide-in-item_ranking-2 .widget-title:before{content:"\f06d";}
+#slide-in-tag_cloud-2 .widget-title:before{content:"\f02c";}
+
+.widget-entry-cards .widget-entry-card-content {
+    //color: slategray;
+}
+
+#slide-in-search-2 input.search-edit {
+    background: whitesmoke;
+}

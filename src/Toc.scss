@@ -1,0 +1,84 @@
+/*Table of Contents*********************************************************/
+
+.toc{
+	padding:0;
+	border: 2px solid $main-color;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	width: 90%;
+}
+
+.toc-title {
+    background: $main-color;
+    color: white;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+
+.toc-title:before {
+    font-family: "FontAwesome";
+    content: "\f0ca";
+    margin-right: .5em;
+    padding: .3em;
+}
+
+.toc-list.open {
+    padding: 0 2em;
+}
+
+.toc a{
+	transition:all 200ms ease-in-out;
+}
+
+.toc a:hover {
+    text-decoration: none;
+    color: $main-color;
+}
+
+.toc a {
+    color: #545454;
+}
+
+ol.toc-list{
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol.toc-list > li > a{
+	  font-weight:bold;
+}
+
+ol.toc-list > li:before {
+    counter-increment: item;
+    content: counter(item)'';
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background: $main-color;
+    color: white;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+ol.toc-list li {
+    margin: 1em 0;
+}
+
+.toc-list>li>ol {
+    font-size: .9em;
+    color: slategray;
+    padding-left: 3em;
+}
+
+.toc-list>li>ol>ol {
+	  padding-left: 0;/*小見出し一つの時用*/
+}
+
+@media (max-width:480px){
+  .toc{
+   width:100%;
+  }
+}
