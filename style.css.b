@@ -15,7 +15,7 @@ body {
   background: #eff1f5; }
 
 a {
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 .go-to-top {
   right: 50px;
@@ -24,7 +24,7 @@ a {
   border-radius: 50%; }
 
 .go-to-top-button {
-  background-color: darkolivegreen;
+  background-color: lightskyblue;
   border-radius: 50%;
   color: white;
   width: 60px;
@@ -60,7 +60,7 @@ header.article-header.entry-header {
 .navi-footer-in a:hover {
   position: relative;
   z-index: 100;
-  box-shadow: inset 0px 0px 0px 1px darkolivegreen; }
+  box-shadow: inset 0px 0px 0px 1px lightskyblue; }
   .navi-in a:hover::before,
   .navi-footer-in a:hover::before {
     content: '';
@@ -69,7 +69,7 @@ header.article-header.entry-header {
     right: 0;
     bottom: 0;
     position: absolute;
-    background-color: darkolivegreen;
+    background-color: lightskyblue;
     opacity: 0.1; }
 
 .navi-in > ul li {
@@ -102,7 +102,7 @@ div#header-container {
   max-width: 100%;
   color: white;
   font-size: small;
-  background: darkolivegreen;
+  background: lightskyblue;
   border-radius: 30px; }
 
 .tagline:before {
@@ -112,14 +112,14 @@ div#header-container {
   left: 50%;
   margin-left: -15px;
   border: 15px solid transparent;
-  border-top: 15px solid darkolivegreen; }
+  border-top: 15px solid lightskyblue; }
 
 /*logo*/
 .logo-text {
   padding: 0 0 10px;
   font-size: 1em;
   font-family: sans-serif;
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 /*Side*********************************************************/
 .sidebar {
@@ -129,7 +129,7 @@ div#header-container {
 
 .sidebar h3 {
   font-size: 18px;
-  background: darkolivegreen;
+  background: lightskyblue;
   padding: 1em 0;
   margin: -2em -2em 1em;
   text-align: center;
@@ -160,7 +160,7 @@ aside .search-box input[type="text"] {
   border: none; }
 
 .search-submit {
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 .search-box {
   margin: 0 0 24px;
@@ -171,7 +171,7 @@ aside .search-box input[type="text"] {
   border-radius: 4px;
   font-size: 14px;
   line-height: 2;
-  color: darkolivegreen;
+  color: lightskyblue;
   width: 100%;
   transition: all 300ms; }
   .search-edit:hover, input[type="text"]:hover {
@@ -229,7 +229,7 @@ input::placeholder, input:-ms-input-placeholder, input::-ms-input-placeholder {
   /*サイドバーでの画像をblockに*/ }
 
 article .ranking-items {
-  border: 1px solid darkolivegreen;
+  border: 1px solid lightskyblue;
   position: relative;
   padding-top: 20px;
   margin-top: 40px; }
@@ -241,7 +241,7 @@ article .ranking-item-name {
   color: #545454; }
 
 article .ranking-items:before {
-  background: darkolivegreen;
+  background: lightskyblue;
   content: "ランキング";
   position: absolute;
   width: calc(100% - 8px);
@@ -340,7 +340,7 @@ aside .ranking-item-rating {
 
 .author-box .sns-follow-buttons a.follow-button {
   border: none;
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 .author-widget-name {
   font-size: .9em;
@@ -359,7 +359,7 @@ aside .ranking-item-rating {
   margin-top: 1em; }
 
 .recent-comment-content {
-  background: darkolivegreen;
+  background: lightskyblue;
   color: white;
   border: none;
   padding: 1em;
@@ -367,11 +367,11 @@ aside .ranking-item-rating {
 
 .recent-comment-content::before {
   border-color: transparent;
-  border-bottom-color: darkolivegreen; }
+  border-bottom-color: lightskyblue; }
 
 .recent-comment-content::after {
   border-color: transparent;
-  border-bottom-color: darkolivegreen; }
+  border-bottom-color: lightskyblue; }
 
 /* widget post */
 .widget-entry-cards {
@@ -414,7 +414,6 @@ div#list {
   transition: all 500ms; }
 
 .a-wrap:hover {
-  box-shadow: 0 2px 6px -3px gray;
   transition: all 500ms; }
 
 .a-wrap {
@@ -438,7 +437,7 @@ h2.entry-card-title.card-title.e-card-title {
   left: 0;
   border: none;
   color: #fff;
-  background-color: darkolivegreen;
+  background-color: lightskyblue;
   padding: .2em 1em;
   max-width: 80%;
   font-size: 0.9em; }
@@ -464,7 +463,7 @@ a.page-numbers:hover {
   box-shadow: 0 5px 5px slategrey; }
 
 .pagination .current {
-  background-color: darkolivegreen;
+  background-color: lightskyblue;
   color: white; }
 
 /*Post*********************************************************/
@@ -529,11 +528,11 @@ footer.article-footer.entry-footer {
 
 /* category & tags */
 a.cat-link {
-  background: darkolivegreen; }
+  background: lightskyblue; }
 
 a.tag-link {
-  color: darkolivegreen;
-  border-color: darkolivegreen; }
+  color: lightskyblue;
+  border-color: lightskyblue; }
 
 @media (max-width: 1023px) {
   main > article {
@@ -545,7 +544,7 @@ a.tag-link {
 
 /*share-button*/
 .share-button a {
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 .sns-buttons a {
   color: #545454; }
@@ -638,7 +637,7 @@ span.related-entry-main-heading.main-caption:before, .comment-title:before {
   font-family: sans-serif;
   font-weight: 100;
   padding: .5em;
-  border-bottom: 2px solid darkolivegreen;
+  border-bottom: 2px solid lightskyblue;
   letter-spacing: .4em; }
 
 .sns-share-message:before {
@@ -672,12 +671,12 @@ section.comment-list, div#respond, .comment-btn {
   padding: 1em;
   font-size: 1em;
   color: white;
-  background: darkolivegreen;
+  background: lightskyblue;
   border-radius: 30px; }
 
 a.comment-reply-link {
   border: none;
-  background: darkolivegreen;
+  background: lightskyblue;
   color: white;
   border-radius: 30px;
   padding: .5em 1em; }
@@ -717,7 +716,7 @@ a.comment-reply-link {
   height: 100%;
   top: 0;
   left: 0;
-  background: darkolivegreen;
+  background: lightskyblue;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px; }
 
@@ -730,13 +729,13 @@ a.comment-reply-link {
 /*Table of Contents*********************************************************/
 .toc {
   padding: 0;
-  border: 2px solid darkolivegreen;
+  border: 2px solid lightskyblue;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   width: 90%; }
 
 .toc-title {
-  background: darkolivegreen;
+  background: lightskyblue;
   color: white;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; }
@@ -755,7 +754,7 @@ a.comment-reply-link {
 
 .toc a:hover {
   text-decoration: none;
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 .toc a {
   color: #545454; }
@@ -776,7 +775,7 @@ ol.toc-list > li:before {
   height: 2em;
   line-height: 2em;
   text-align: center;
-  background: darkolivegreen;
+  background: lightskyblue;
   color: white;
   border-radius: 50%;
   margin-right: .5em; }
@@ -803,7 +802,7 @@ div#comment-area {
   padding: 20px; }
 
 .comment-btn {
-  background-color: darkolivegreen;
+  background-color: lightskyblue;
   border: none;
   color: white;
   border-radius: 30px;
@@ -884,7 +883,7 @@ textarea#comment {
 
 ul.menu-drawer:before, ul.menu-drawer:after {
   display: block;
-  background: darkolivegreen;
+  background: lightskyblue;
   color: white;
   padding: .5em;
   font-family: sans-serif;
@@ -910,10 +909,10 @@ ul.menu-drawer:after {
   color: #aaa; }
 
 .menu-close-button::before {
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 #slide-in-sidebar .widget-title {
-  background: darkolivegreen;
+  background: lightskyblue;
   padding: .5em;
   color: white;
   border-radius: 5px; }
@@ -990,7 +989,7 @@ ul.menu-drawer:after {
   width: max-content;
   margin: .5em auto;
   padding-bottom: .5em;
-  border-bottom: 3px solid darkolivegreen; }
+  border-bottom: 3px solid lightskyblue; }
 
 .appeal-content {
   min-width: 50%;
@@ -1018,7 +1017,7 @@ a.appeal-button {
 .posts-not-found h2:before {
   content: "\f292";
   font-family: "FontAwesome";
-  color: darkolivegreen;
+  color: lightskyblue;
   margin-right: 1em; }
 
 h1#archive-title {
@@ -1032,11 +1031,11 @@ h1#archive-title {
 
 span.fa.fa-search:before {
   content: "\f002";
-  color: darkolivegreen; }
+  color: lightskyblue; }
 
 /*blog card*/
 .blogcard {
-  border: 2px solid darkolivegreen;
+  border: 2px solid lightskyblue;
   border-radius: 0; }
 
 .blogcard:before {
@@ -1047,7 +1046,7 @@ span.fa.fa-search:before {
   left: -13px;
   padding: .5em .6em;
   border-radius: 50%;
-  background: darkolivegreen;
+  background: lightskyblue;
   color: white;
   z-index: 1; }
 
