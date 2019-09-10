@@ -2,120 +2,129 @@
 
 /*notice area*/
 .notice-area {
-    background-color:transparent !important; /*通知欄にどの色を選択しても無効に*/
+    background-color: transparent !important; /*通知欄にどの色を選択しても無効に*/
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-   padding: .5em;
-   font-size: 1em;
-    transition:all 500ms ease-in-out;
+    padding: 0.5em;
+    font-size: 1em;
+    transition: all 500ms ease-in-out;
 }
 .notice-area-wrap:hover {
-   opacity: .8;
+    opacity: 0.8;
 }
-.notice-area:hover{
-    opacity:.8;
+.notice-area:hover {
+    opacity: 0.8;
 }
 
 /*appeal area*/
 .appeal-title {
-   width: max-content;
-   margin: .5em auto;
-   padding-bottom: .5em;
-   border-bottom: 3px solid $main-color;
+    width: max-content;
+    margin: 0.5em auto;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid $main-color;
 }
 
 .appeal-content {
-   min-width: 50%;
-   opacity: .9;
+    min-width: 50%;
+    opacity: 0.9;
 }
 
 a.appeal-button {
-   width: max-content;
-   border-radius: 30px;
-   box-shadow: 0 1px 3px slategrey;
-   transition: all 500ms;
+    width: max-content;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px slategrey;
+    transition: all 500ms;
 }
 
 .appeal-button:hover {
-   color: #fff;
-   opacity: 1;
-   transform: translateY(-3px);
-   box-shadow: 0 4px 5px slategrey;
+    color: #fff;
+    opacity: 1;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 5px slategrey;
 }
 
 /*search*/
 .posts-not-found {
-   padding: 1em;
-   background: white;
+    padding: 1em;
+    background: white;
     color: slategrey;
-   text-align:center;
+    text-align: center;
 }
-.posts-not-found h2:before{
-   content:"\f292";
-   font-family:"FontAwesome";
-   color:$main-color;
-   margin-right:1em;
+.posts-not-found h2:before {
+    content: "\f292";
+    font-family: "FontAwesome";
+    color: $main-color;
+    margin-right: 1em;
 }
 h1#archive-title {
-   margin: 0 0 1em;
-   padding: .5em;
+    margin: 0 0 1em;
+    padding: 0.5em;
     color: slategrey;
 }
 /* カテゴリー・タグページ */
-.article-header h1#archive-title{
-   color: #545454;
+.article-header h1#archive-title {
+    color: #545454;
 }
 span.fa.fa-search:before {
-   content: "\f002";
-   color: $main-color;
+    content: "\f002";
+    color: $main-color;
 }
 
 /*blog card*/
 
-.blogcard{
- border:2px solid $main-color;
- border-radius:0;
+.blogcard {
+    border: 2px solid $main-color;
+    border-radius: 0;
 }
 
 .blogcard:before {
-   font-family: "FontAwesome";
-   content: "\f08e";
-   position: absolute;
-   top: -13px;
-   left: -13px;
-   padding: .5em .6em;
-   border-radius: 50%;
-   background: $main-color;
-   color: white;
-   z-index:1;
+    font-family: "FontAwesome";
+    content: "\f08e";
+    position: absolute;
+    top: -13px;
+    left: -13px;
+    padding: 0.5em 0.6em;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: $main-color;
+    color: white;
+    z-index: 1;
 }
 
 /*author-info*/
 
-.author-info,a.author-link {
-   color: slategray;
+.author-info,
+a.author-link {
+    color: slategray;
 }
 
 /*select*/
 
 select {
-   border: none;
-   color: slategray;
-   padding: 1em .5em;
-   font-size: .9em;
+    border: none;
+    color: slategray;
+    padding: 1em 0.5em;
+    font-size: 0.9em;
+}
+
+.breadcrumb.sbp-main-before,
+.breadcrumb.sbp-footer-before,
+.breadcrumb.pbp-main-before,
+.breadcrumb.pbp-footer-beforeb {
+    background-color: transparent;
 }
 
 /*META******************************************************************************************/
 
 /*エディタの背景を白に*/
 .editor-styles-wrapper {
-   background: white;
+    background: white;
 }
 
 /*PLUG-IN******************************************************************************************/
 
 h3.wpforo-forum-title {
-   background-color: transparent;
+    background-color: transparent;
 }
 h3.wpforo-forum-title::before {
-   display: none;
+    display: none;
 }

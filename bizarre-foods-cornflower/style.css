@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-    Skin Name: Bizarre-food（ブルーカレー）
+    Skin Name: Bizarre-food（Dark）
     Description: Simple & Flat skin
     Skin URI: https://takasaki.work/cocoon_skin/
     Author: takasaki, naoki1510
@@ -15,7 +15,7 @@ body {
   background: #eff1f5; }
 
 a {
-  color: lightskyblue; }
+  color: cornflowerblue; }
 
 .go-to-top {
   right: 50px;
@@ -24,7 +24,7 @@ a {
   border-radius: 50%; }
 
 .go-to-top-button {
-  background-color: lightskyblue;
+  background-color: cornflowerblue;
   border-radius: 50%;
   color: white;
   width: 60px;
@@ -60,7 +60,7 @@ header.article-header.entry-header {
 .navi-footer-in a:hover {
   position: relative;
   z-index: 100;
-  box-shadow: inset 0px 0px 0px 1px lightskyblue; }
+  box-shadow: inset 0px 0px 0px 1px cornflowerblue; }
   .navi-in a:hover::before,
   .navi-footer-in a:hover::before {
     content: '';
@@ -69,7 +69,7 @@ header.article-header.entry-header {
     right: 0;
     bottom: 0;
     position: absolute;
-    background-color: lightskyblue;
+    background-color: cornflowerblue;
     opacity: 0.1; }
 
 .navi-in > ul li {
@@ -102,7 +102,7 @@ div#header-container {
   max-width: 100%;
   color: white;
   font-size: small;
-  background: lightskyblue;
+  background: cornflowerblue;
   border-radius: 30px; }
 
 .tagline:before {
@@ -112,14 +112,14 @@ div#header-container {
   left: 50%;
   margin-left: -15px;
   border: 15px solid transparent;
-  border-top: 15px solid lightskyblue; }
+  border-top: 15px solid cornflowerblue; }
 
 /*logo*/
 .logo-text {
   padding: 0 0 10px;
   font-size: 1em;
   font-family: sans-serif;
-  color: lightskyblue; }
+  color: cornflowerblue; }
 
 /*Side*********************************************************/
 .sidebar {
@@ -128,7 +128,7 @@ div#header-container {
   background: transparent; }
 
 .sidebar h3 {
-  background: lightskyblue;
+  background: cornflowerblue;
   padding: 1em 0;
   margin: -2em -2em 1em;
   text-align: center;
@@ -169,7 +169,7 @@ aside .search-box input[type="text"] {
   border: none; }
 
 .search-submit {
-  color: lightskyblue; }
+  color: cornflowerblue; }
 
 .search-box {
   margin: 0 0 24px;
@@ -181,7 +181,7 @@ input[type="text"] {
   border-radius: 4px;
   font-size: 14px;
   line-height: 2;
-  color: lightskyblue;
+  color: cornflowerblue;
   width: 100%;
   transition: all 300ms; }
   .search-edit:hover,
@@ -245,7 +245,7 @@ input::-ms-input-placeholder {
   /*サイドバーでの画像をblockに*/ }
 
 article .ranking-items {
-  border: 1px solid lightskyblue;
+  border: 1px solid cornflowerblue;
   position: relative;
   padding-top: 20px;
   margin-top: 40px; }
@@ -257,7 +257,7 @@ article .ranking-item-name {
   color: #545454; }
 
 article .ranking-items:before {
-  background: lightskyblue;
+  background: cornflowerblue;
   content: "ランキング";
   position: absolute;
   width: calc(100% - 8px);
@@ -359,7 +359,7 @@ aside .ranking-item-rating {
 
 .author-box .sns-follow-buttons a.follow-button {
   border: none;
-  color: lightskyblue; }
+  color: cornflowerblue; }
 
 .author-widget-name {
   font-size: 0.9em;
@@ -378,7 +378,7 @@ aside .ranking-item-rating {
   margin-top: 1em; }
 
 .recent-comment-content {
-  background: lightskyblue;
+  background: cornflowerblue;
   color: white;
   border: none;
   padding: 1em;
@@ -386,11 +386,11 @@ aside .ranking-item-rating {
 
 .recent-comment-content::before {
   border-color: transparent;
-  border-bottom-color: lightskyblue; }
+  border-bottom-color: cornflowerblue; }
 
 .recent-comment-content::after {
   border-color: transparent;
-  border-bottom-color: lightskyblue; }
+  border-bottom-color: cornflowerblue; }
 
 /* widget post */
 /*
@@ -471,7 +471,7 @@ h2.entry-card-title.card-title.e-card-title {
   left: 0;
   border: none;
   color: #fff;
-  background-color: lightskyblue;
+  background-color: cornflowerblue;
   padding: 0.2em 1em;
   max-width: 80%;
   font-size: 0.9em; }
@@ -497,7 +497,7 @@ a.page-numbers:hover {
   box-shadow: 0 5px 5px slategrey; }
 
 .pagination .current {
-  background-color: lightskyblue;
+  background-color: cornflowerblue;
   color: white; }
 
 /*Post*********************************************************/
@@ -556,11 +556,11 @@ footer.article-footer.entry-footer {
 
 /* category & tags */
 a.cat-link {
-  background: lightskyblue; }
+  background: cornflowerblue; }
 
 a.tag-link {
-  color: lightskyblue;
-  border-color: lightskyblue; }
+  color: cornflowerblue;
+  border-color: cornflowerblue; }
 
 main > article {
   padding: 0px; }
@@ -579,7 +579,7 @@ aritcle > footer.article-footer {
 
 /*share-button*/
 .share-button a {
-  color: lightskyblue; }
+  color: cornflowerblue; }
 
 .sns-buttons a {
   color: #545454; }
@@ -680,7 +680,7 @@ span.related-entry-main-heading.main-caption:before,
   font-family: sans-serif;
   font-weight: bold;
   padding: 0.5em;
-  border-bottom: 2px solid lightskyblue;
+  border-bottom: 2px solid cornflowerblue;
   letter-spacing: 0.4em; }
 
 .sns-share-message:before {
@@ -707,7 +707,7 @@ span.related-entry-main-heading.main-caption:before {
   .related-list .a-wrap {
     margin-bottom: 0; }
   .related-list .a-wrap + .a-wrap {
-    border-top: 1px dashed lightskyblue; }
+    border-top: 1px dashed cornflowerblue; }
 
 /*comments*/
 section.comment-list,
@@ -720,12 +720,12 @@ div#respond,
   padding: 1em;
   font-size: 1em;
   color: white;
-  background: lightskyblue;
+  background: cornflowerblue;
   border-radius: 30px; }
 
 a.comment-reply-link {
   border: none;
-  background: lightskyblue;
+  background: cornflowerblue;
   color: white;
   border-radius: 30px;
   padding: 0.5em 1em; }
@@ -778,18 +778,18 @@ a.comment-reply-link {
     padding: 0.2em 1em;
     margin: 1.6em 0 0.8em; }
   .article h2 {
-    border-top: 1px solid lightskyblue;
-    border-bottom: 1px solid lightskyblue;
+    border-top: 1px solid cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
     padding: .75em 1em; }
   .article h2:before {
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: lightskyblue;
+    background-color: cornflowerblue;
     opacity: 0.1; }
   .article h3 {
-    border-left: 6px solid lightskyblue;
+    border-left: 6px solid cornflowerblue;
     background-color: whitesmoke;
     padding: .55em 1em;
     margin-left: .6rem; }
@@ -804,7 +804,7 @@ a.comment-reply-link {
   position: relative;
   padding: 1rem;
   margin-top: 3rem;
-  border: 2px solid lightskyblue;
+  border: 2px solid cornflowerblue;
   border-radius: 4px;
   width: 90%;
   font-size: 1rem; }
@@ -820,12 +820,12 @@ a.comment-reply-link {
     font-size: 1.5rem;
     padding: 0em 0;
     background: white;
-    color: lightskyblue;
+    color: cornflowerblue;
     border-radius: 4px; }
     #toc .toc-title::before,
     .toc .toc-title::before {
       font-size: 0.8em;
-      background-color: lightskyblue;
+      background-color: cornflowerblue;
       color: white;
       font-weight: normal;
       border-radius: 1em;
@@ -844,8 +844,8 @@ a.comment-reply-link {
       padding: 0.25em 1em;
       margin: 0 3px 0 2rem;
       border-radius: 4px;
-      color: lightskyblue;
-      border: 2px solid lightskyblue; }
+      color: cornflowerblue;
+      border: 2px solid cornflowerblue; }
     #toc .toc-title:hover::after,
     .toc .toc-title:hover::after {
       text-decoration: none; }
@@ -858,7 +858,7 @@ a.comment-reply-link {
   #toc a:hover,
   .toc a:hover {
     text-decoration: none;
-    color: lightskyblue; }
+    color: cornflowerblue; }
   #toc a,
   .toc a {
     color: #545454; }
@@ -881,7 +881,7 @@ a.comment-reply-link {
     height: 1.6em;
     line-height: 1.7em;
     text-align: center;
-    background: lightskyblue;
+    background: cornflowerblue;
     color: white;
     border-radius: 60%;
     margin-right: 0.5em;
@@ -910,7 +910,7 @@ div#comment-area {
   padding: 20px; }
 
 .comment-btn {
-  background-color: lightskyblue;
+  background-color: cornflowerblue;
   border: none;
   color: white;
   border-radius: 30px;
@@ -991,7 +991,7 @@ textarea#comment {
 
 ul.menu-drawer:before, ul.menu-drawer:after {
   display: block;
-  background: lightskyblue;
+  background: cornflowerblue;
   color: white;
   padding: .5em;
   font-family: sans-serif;
@@ -1017,10 +1017,10 @@ ul.menu-drawer:after {
   color: #aaa; }
 
 .menu-close-button::before {
-  color: lightskyblue; }
+  color: cornflowerblue; }
 
 #slide-in-sidebar .widget-title {
-  background: lightskyblue;
+  background: cornflowerblue;
   padding: .5em;
   color: white;
   border-radius: 5px; }
@@ -1097,7 +1097,7 @@ ul.menu-drawer:after {
   width: max-content;
   margin: 0.5em auto;
   padding-bottom: 0.5em;
-  border-bottom: 3px solid lightskyblue; }
+  border-bottom: 3px solid cornflowerblue; }
 
 .appeal-content {
   min-width: 50%;
@@ -1125,7 +1125,7 @@ a.appeal-button {
 .posts-not-found h2:before {
   content: "\f292";
   font-family: "FontAwesome";
-  color: lightskyblue;
+  color: cornflowerblue;
   margin-right: 1em; }
 
 h1#archive-title {
@@ -1139,11 +1139,11 @@ h1#archive-title {
 
 span.fa.fa-search:before {
   content: "\f002";
-  color: lightskyblue; }
+  color: cornflowerblue; }
 
 /*blog card*/
 .blogcard {
-  border: 2px solid lightskyblue;
+  border: 2px solid cornflowerblue;
   border-radius: 0; }
 
 .blogcard:before {
@@ -1155,7 +1155,7 @@ span.fa.fa-search:before {
   padding: 0.5em 0.6em;
   border-radius: 50%;
   border: 3px solid white;
-  background: lightskyblue;
+  background: cornflowerblue;
   color: white;
   z-index: 1; }
 

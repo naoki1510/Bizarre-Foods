@@ -26,6 +26,8 @@ div#list {
 
 .a-wrap {
     background-color: #fff;
+    //margin-bottom: 0;
+    //border-bottom: 1px dashed $main-color;
 }
 
 h2.entry-card-title.card-title.e-card-title {
@@ -161,7 +163,7 @@ a.tag-link {
     border-color: $main-color;
 }
 
-@media (max-width: 1023px) {
+//@media (max-width: 1023px) {
     main > article {
         padding: 0px;
     }
@@ -172,15 +174,12 @@ a.tag-link {
     .entry-categories-tags.ctdt-one-row {
         padding: 0 10px;
     }
-}
+//}
 
-@media (max-width: 834px) {
-    .eye-catch {
-        //padding-bottom: 150px;
-    }
-
-    .article-header h1 {
-        //bottom: 150px;
+@media (max-width: 880px) {
+    h1.entry-title {
+        left: 18px;
+        padding: 0;
     }
 }
 
@@ -311,7 +310,7 @@ span.related-entry-main-heading.main-caption:before,
 .comment-title:before {
     font-size: 16px;
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: bold;
     padding: 0.5em;
     border-bottom: 2px solid $main-color;
     letter-spacing: 0.4em;
@@ -345,6 +344,14 @@ span.related-entry-main-heading.main-caption:before {
 
 .related-list {
     margin: auto;
+
+    .a-wrap{
+        margin-bottom: 0;
+    }
+
+    .a-wrap + .a-wrap{
+        border-top: 1px dashed $main-color;
+    }
 }
 
 /*comments*/
