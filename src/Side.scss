@@ -9,11 +9,10 @@
 .sidebar h3 {
     //font-size: 18px;
     background: $main-color;
-    padding: 1em 0;
-    margin: -2em -2em 1em;
-    text-align: center;
+    padding: 1em;
     font-weight: bold;
     color: white;
+    border-radius: 0;
 }
 
 #sidebar > .widget {
@@ -36,7 +35,7 @@
 
 aside {
     background: #fff;
-    padding: 2em;
+    //padding: 2em;
 }
 
 @media (max-width: 1023px) {
@@ -53,7 +52,7 @@ aside {
 aside.widget_search {
     //padding: 0;
     .search-box{
-        margin: -1rem -1rem -1.75rem;
+        //margin: -1rem -1rem -1.75rem;
     }
 }
 aside .search-box input[type="text"] {

@@ -12,38 +12,6 @@ main,
     margin-right: 0;
 }
 
-/*article list*/
-div#list {
-    background: transparent;
-    transition: all 500ms;
-}
-
-.a-wrap:hover {
-    //box-shadow:0 2px 6px -3px gray;
-    //transform: translateY(-2px);
-    transition: all 500ms;
-}
-
-.a-wrap {
-    background-color: #fff;
-    //margin-bottom: 0;
-    //border-bottom: 1px dashed $main-color;
-}
-
-h2.entry-card-title.card-title.e-card-title {
-    font-weight: 100;
-    color: #545454;
-    padding: 20px 0 20px 0;
-}
-
-.entry-card-snippet.card-snippet.e-card-snippet {
-    color: slategray;
-}
-
-.entry-card-info.e-card-info {
-    color: slategray;
-}
-
 /*category-label*/
 .eye-catch .cat-label,
 .cat-label {

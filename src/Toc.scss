@@ -11,9 +11,28 @@
     border-radius: 4px;
     width: 90%;
     font-size: 1rem;
+    transition: all 300ms ease;
+    background-color: transparent;
+
+    &::before{
+        transition: opacity 300ms ease;
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: $main-color;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    &:hover::before{
+        opacity: 0.1;
+    }
 
     .toc-checkbox {
-        &:checked + .toc-title::after {
+        &:checked+.toc-title::after {
             content: "閉じる";
         }
     }
@@ -21,27 +40,32 @@
     .toc-title {
         position: absolute;
         //display: inline-block;
-        top: -1em;
-        left: -0.4rem;
+        top: -0.4em;
+        left: 3.4rem;
         font-weight: bold;
         font-size: 1.5rem;
-        padding: 0em 0;
+        padding: 0 .75em;
         background: white;
         color: darken($main-color, 0%);
         border-radius: 4px;
+        line-height: 1em;
 
         &::before {
+            font-family: "FontAwesome";
+            content: "\f0ca";
+            position: absolute;
+            left: -4rem;
+            top: -0.4em;
             font-size: 0.8em;
             background-color: $main-color;
             color: white;
             font-weight: normal;
-            border-radius: 1em;
+            border-radius: 50%;
+            border: 3px solid white;
             display: inline-block;
             height: 1.3em;
             width: 1.3em;
             line-height: 1.4em;
-            font-family: "FontAwesome";
-            content: "\f0ca";
             margin: 0 2rem 0 -2px;
             padding: 0.3em;
         }
@@ -49,9 +73,14 @@
         &::after {
             font-size: 0.8rem;
             content: "開く";
+            position: absolute;
+            right: -8em;
+            top: -0.4em;
+            background-color: white;
             padding: 0.25em 1em;
             margin: 0 3px 0 2rem;
             border-radius: 4px;
+            box-shadow: 0 0 0 3px white;
             color: $main-color;
             border: 2px solid $main-color;
         }
@@ -86,11 +115,11 @@
         padding-left: 0;
     }
 
-    ol.toc-list > li > a {
+    ol.toc-list>li>a {
         font-weight: bold;
     }
 
-    ol.toc-list > li:before {
+    ol.toc-list>li:before {
         position: relative;
         counter-increment: item;
         content: counter(item) "";
@@ -111,14 +140,15 @@
         margin: 1em 0;
     }
 
-    .toc-list > li > ol {
+    .toc-list>li>ol {
         font-size: 0.9em;
         color: slategray;
         padding-left: 3em;
     }
 
-    .toc-list > li > ol > ol {
-        padding-left: 0; /*小見出し一つの時用*/
+    .toc-list>li>ol>ol {
+        padding-left: 0;
+        /*小見出し一つの時用*/
     }
 }
 
